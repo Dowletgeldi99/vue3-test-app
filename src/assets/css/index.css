@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  width: 100dvw;
+  height: 100dvh;
+  background: #054BA6;
+}
+
+body,
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+.button-text-shadow {
+  @apply text-shadow-button;
+}
+.button-text-sm {
+  @apply button-text-shadow text-stroke-button-sm;
+}
+.button-text-large {
+  @apply button-text-shadow text-stroke-button;
+}
+
+@font-face {
+  font-family: 'movavi-grotesque-black';
+  src: url('fonts/movavi-grotesque.black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
