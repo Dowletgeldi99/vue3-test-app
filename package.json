@@ -1,8 +1,8 @@
 {
-  "name": "vue3-vite-typescript-starter",
+  "name": "vue3-test-app",
   "version": "0.0.1",
   "private": false,
-  "description": "Simple starter template for developing Vue 3 app with some often used features",
+  "description": "Test app for invite friends",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
