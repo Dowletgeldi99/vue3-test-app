@@ -7,7 +7,7 @@
     "types": ["vite/client"],
     "jsx": "preserve",
     "sourceMap": true,
-    "isolatedModules": true,
+    "isolatedModules": false,
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "lib": ["esnext", "dom"],
